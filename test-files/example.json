@@ -1,0 +1,77 @@
+{
+  "case_id": "12345678-0000-0000-0000-000000000000",
+  "report_fields": {
+    "Hnummer": "H12345-26",
+    "PID": "12345678",
+    "gender": "Männlich",
+    "age": "50",
+    "BlockID": "12345-26, 1-1",
+    "Diagnose": "Malignant tumor of nasal sinuses",
+    "TZG": "50%",
+    "labtest": "WES Tumor-Only",
+    "user_name": "Patrick Tester",
+    "date": "06.10.2026",
+    "TMB-status": "TMB-Low",
+    "TMB-score": "0.5",
+    "MSI-status": "MS-Stable",
+    "MSI-score": "0.89",
+    "GIS-status": "GIS-Low",
+    "GIS-score": "9",
+    "ploidy": "3.0",
+    "project": "-",
+    "free_text": "",
+    "text_bausteine": "",
+    "Technische_Bewertung_text": "Alle Qualitätsparameter der DNA- und RNA-Analytik wurden erreicht.",
+    "Eingeschränkte_qualität_text": "",
+    "Analytik_text": "Das ist ein Beispieltext"
+  },
+  "tables": {
+    "snvs": [
+      {
+        "Gen": "ABC",
+        "cDNA": "c.1234_5678+1del",
+        "Protein": "c.1234_5678+1del",
+        "Depth": "250",
+        "VAF": "20,0%",
+        "Biol. Konsequenz": "Loss of Function",
+        "Klassifizierung": "Likely Oncogenic"
+      },
+      {
+        "Gen": "DEF",
+        "cDNA": "c.1234567C>T",
+        "Protein": "R12345*",
+        "Depth": "350",
+        "VAF": "20,5%",
+        "Biol. Konsequenz": "Loss of Function",
+        "Klassifizierung": "Likely Oncogenic"
+      }
+    ],
+    "cnv_summary": [],
+    "cnv_regions": [],
+    "fusions": [
+      {
+        "Breakpoint": "chr6:12345678,chr9:23456789",
+        "Exons": "ex1",
+        "FusionGroup": "0",
+        "Gene": "BAC",
+        "Reads": "650",
+        "Transkript": "NM1234567"
+      },
+      {
+        "Breakpoint": "",
+        "Exons": "ex2",
+        "FusionGroup": "0",
+        "Gene": "ACB",
+        "Reads": "",
+        "Transkript": "NM123456789"
+      }
+    ]
+  },
+  "sections": {
+    "fusionplex_enabled": true,
+    "fusionplex_only": false,
+    "keimbahn_enabled": false,
+    "germline_snvs_enabled": false,
+    "germline_case_id": null
+  }
+}
